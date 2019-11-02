@@ -1,0 +1,113 @@
+/* POST PAGE */
+.category-post {
+  width: calc(50% - 60px);
+  margin: 30px;
+  text-align: center;
+}
+
+.category-post img {
+  width: 100%;
+  display: block;
+}
+
+.category-post a {
+  color: #3f4244;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.category-post h3 {
+  color: #3f4244;
+}
+
+.category-post p {
+  color: #3f4244;
+}
+
+.container--post {
+  width: 70%;
+}
+
+aside {
+  width: calc(30% - 50px);
+  padding-left: 50px;
+}
+
+aside a {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #233537;
+}
+
+aside a:hover {
+  color: #ff6a55;
+}
+
+.random-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.random-posts h6 {
+  color: #3f4244;
+  background: none;
+}
+
+.random-posts--item {
+  width: calc(20% - 30px);
+  margin: 15px;
+}
+
+.random-posts--photo img {
+  width: 100%;
+  display: block;
+}
+
+.random-posts--content {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.random-posts--content a {
+  color: #3f4244;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media all and (max-width: 900px) {
+  .random-posts--item {
+    width: calc(33.3333% - 30px);
+  }
+}
+
+@media all and (max-width: 600px) {
+  .random-posts--item {
+    width: calc(50% - 30px);
+  }
+  aside {
+    display: none;
+  }
+  .container--post {
+    width: 100%;
+  }
+  .category-post {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .random-posts--item {
+    width: calc(100% - 30px);
+  }
+}
+
+/*# sourceMappingURL=post_style.css.map */
